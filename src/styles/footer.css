@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.links-footer {
+  display: flex;
+}
+
+.links-footer p {
+  opacity: 0.4;
+}
+
+.links-footer .privacy-policy {
+  margin-right: 30px;
+}
+
+
+/* Trabalhando a responsividade */
+
+@media only screen and (max-width: 992px) {
+  .footer-container {
+    min-width: 992px;
+  }
+
+  .footer {
+    justify-content: space-around;
+  }
+}

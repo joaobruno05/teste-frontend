@@ -1,0 +1,40 @@
+.form-container h1 {
+  /* border: 1px solid yellow; */
+  /* margin: 0 auto; */
+  /* min-width: 300px; */
+}
+
+.form-container div {
+  /* border: 1px solid red; */
+  /* width: max-content; */
+}
+
+.form-container label {
+  /* border: 1px solid green; */
+}
+
+@media only screen and (min-width: 600px) {
+  .form-container .div-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form-container .div-btn {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .form-container .div-label-input {
+    max-width: 40%;
+    margin: 0 auto;
+  }
+
+  .uf {
+    max-width: 30%;
+  }
+
+  /* .form-label {
+    border: 1px solid black;
+    max-width: 50%;
+  } */
+}

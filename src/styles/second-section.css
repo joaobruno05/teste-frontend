@@ -1,0 +1,105 @@
+.section-two {
+  background-color:ghostwhite;
+  margin-top: 30px;
+  padding-bottom: 60px;
+  min-width: max-content;
+}
+
+.section-two h2 {
+  color: #241178;
+  font-weight: 900;
+  text-align: center;
+  padding: 40px 0 10px 0;
+}
+
+.text-second-section {
+  width: 35%;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  opacity: 0.4;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.food-card {
+  border-radius: 8px;
+  display: flex;
+  box-shadow: 5px 5px 5px #d3d3d3;
+  max-width: 500px;
+  margin: 0 0 30px 20px;
+}
+
+.food-card .btn {
+  font-size: 1em;
+  padding-left: 25px;
+  padding-right: 25px;
+  opacity: 0.6;
+}
+
+.food-card .btn:hover {
+  opacity: 1;
+}
+
+.info-cards {
+  align-self: center;
+  margin: 0 20px 0 20px;
+}
+
+.info-cards h3 {
+  color: #241178;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 992px) {
+  .section-two .text-second-section {
+    max-width: 992px;
+    font-size: 1.4em;
+  }
+
+  .cards {
+    flex-direction: column;
+    min-width: 992px;
+  }
+
+  .food-card {
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section-two h2 {
+    font-size: 3.5em;
+  }
+
+  .section-two .text-second-section {
+    width: 70%;
+    font-size: 2.2em;
+  }
+
+  .food-card {
+    display: block;
+    min-width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .img-card img {
+    width: 100%;
+  }
+
+  .info-cards {
+    text-align: center;
+    padding: 50px;
+  }
+
+  .info-cards h3 {
+    font-size: 2.5em;
+  }
+
+  .info-cards .btn {
+    margin-top: 50px;
+    font-size: 2em;
+  }
+}

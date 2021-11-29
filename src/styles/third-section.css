@@ -1,0 +1,84 @@
+.section-three {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.text-third-section {
+  max-width: 380px;
+}
+
+.section-three h2 {
+  color: #241178;
+  font-weight: 900;
+  padding: 40px 0 10px 0;
+  margin-bottom: 30px;
+}
+
+.section-three p {
+  opacity: 0.3;
+}
+
+.section-three .btn {
+  background-color: #00FF00;
+  color: white;
+  opacity: 0.6;
+  font-size: 0.9em;
+  margin-top: 30px;
+  padding: 15px 40px 15px 40px;
+}
+
+.section-three .btn:hover {
+  opacity: 1;
+}
+
+@media only screen and (min-width: 1400px) {
+  .section-three {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .section-three {
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    min-width: 992px;
+  }
+
+  .section-three img {
+    display: none;
+  }
+
+  .text-third-section {
+    max-width: 60%;
+  }
+
+  .text-third-section h2 {
+    padding: 0;
+  }
+
+  .text-third-section p {
+    text-align: justify;
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .text-third-section {
+    max-width: 80%;
+  }
+
+  .text-third-section h2 {
+    font-size: 3.5em;
+  }
+
+  .text-third-section p {
+    font-size: 2.2em;
+  }
+
+  .section-three .btn {
+    font-size: 1.4em;
+  }
+}
