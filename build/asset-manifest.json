@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/teste-frontend/static/css/main.f2156b5d.chunk.css",
-    "main.js": "/teste-frontend/static/js/main.685b8952.chunk.js",
-    "main.js.map": "/teste-frontend/static/js/main.685b8952.chunk.js.map",
+    "main.js": "/teste-frontend/static/js/main.aa899c9c.chunk.js",
+    "main.js.map": "/teste-frontend/static/js/main.aa899c9c.chunk.js.map",
     "runtime-main.js": "/teste-frontend/static/js/runtime-main.140e0c8b.js",
     "runtime-main.js.map": "/teste-frontend/static/js/runtime-main.140e0c8b.js.map",
-    "static/css/2.e8621165.chunk.css": "/teste-frontend/static/css/2.e8621165.chunk.css",
-    "static/js/2.6cf7c6ac.chunk.js": "/teste-frontend/static/js/2.6cf7c6ac.chunk.js",
-    "static/js/2.6cf7c6ac.chunk.js.map": "/teste-frontend/static/js/2.6cf7c6ac.chunk.js.map",
+    "static/css/2.c011676a.chunk.css": "/teste-frontend/static/css/2.c011676a.chunk.css",
+    "static/js/2.67f82f7b.chunk.js": "/teste-frontend/static/js/2.67f82f7b.chunk.js",
+    "static/js/2.67f82f7b.chunk.js.map": "/teste-frontend/static/js/2.67f82f7b.chunk.js.map",
     "static/js/3.f652c493.chunk.js": "/teste-frontend/static/js/3.f652c493.chunk.js",
     "static/js/3.f652c493.chunk.js.map": "/teste-frontend/static/js/3.f652c493.chunk.js.map",
     "index.html": "/teste-frontend/index.html",
-    "static/css/2.e8621165.chunk.css.map": "/teste-frontend/static/css/2.e8621165.chunk.css.map",
+    "static/css/2.c011676a.chunk.css.map": "/teste-frontend/static/css/2.c011676a.chunk.css.map",
     "static/css/main.f2156b5d.chunk.css.map": "/teste-frontend/static/css/main.f2156b5d.chunk.css.map",
-    "static/js/2.6cf7c6ac.chunk.js.LICENSE.txt": "/teste-frontend/static/js/2.6cf7c6ac.chunk.js.LICENSE.txt",
+    "static/js/2.67f82f7b.chunk.js.LICENSE.txt": "/teste-frontend/static/js/2.67f82f7b.chunk.js.LICENSE.txt",
     "static/media/Illustration.07936670.svg": "/teste-frontend/static/media/Illustration.07936670.svg",
     "static/media/bloco_final_image.4664bb6a.svg": "/teste-frontend/static/media/bloco_final_image.4664bb6a.svg",
     "static/media/bloco_image_2.144f04a8.svg": "/teste-frontend/static/media/bloco_image_2.144f04a8.svg",
@@ -28,9 +28,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.140e0c8b.js",
-    "static/css/2.e8621165.chunk.css",
-    "static/js/2.6cf7c6ac.chunk.js",
+    "static/css/2.c011676a.chunk.css",
+    "static/js/2.67f82f7b.chunk.js",
     "static/css/main.f2156b5d.chunk.css",
-    "static/js/main.685b8952.chunk.js"
+    "static/js/main.aa899c9c.chunk.js"
   ]
 }
