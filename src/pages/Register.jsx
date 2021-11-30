@@ -74,6 +74,7 @@ export default function Register() {
               onChange={({ target }) => (setName(target.value.toUpperCase()))}
               onKeyUp={validForm}
               required
+              autoComplete="no"
             />
           </label>
         </div>
@@ -97,7 +98,7 @@ export default function Register() {
           <label className="form-label w-100" htmlFor="cpf">
             CPF
             <input
-              type="text"
+              type="password"
               className={isValidCPF ? 'is-valid form-control' : 'is-invalid form-control'}
               placeholder="000.000.000-00"
               name="cpf"
@@ -122,6 +123,7 @@ export default function Register() {
               onChange={({ target }) => setZipeCode(target.value)}
               onBlur={() => fillInAdressData()}
               required
+              autoComplete="no"
             />
           </label>
         </div>

@@ -59,8 +59,16 @@
 
 @media only screen and (max-width: 600px) {
   .nav-container {
-    padding: 25px;
+    padding: 40px;
     position: fixed;
+  }
+
+  .nav-container p {
+    font-size: 3em;
+  }
+
+  #links-menu a {
+    font-size: 1.5em;
   }
 
   #links-menu a:hover {
